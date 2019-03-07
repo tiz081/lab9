@@ -7,7 +7,7 @@ $(document).ready(function() {
 
 // Function that is called when the document is ready.
 function initializePage() {
-    $.get('/lab/today', onServerResponse);
+    $('.lab a').get(onServerResponse);
 }
 
 // Function that is called when the server responds to the AJAX call
